@@ -1,4 +1,4 @@
-# Companion code for the thesis results on ASCAD v1 (fixed key): Hamming-weight CPA, CA-SCA (Table-2 CNN + multi-bit CH), AA-CASCA (H2Net), and MOC. Layout is reorganised from the reported-result copies; function names, defaults, and training hyperparameters are unchanged.
+# Companion code for the thesis results on ASCAD
 
 ## Data
 
