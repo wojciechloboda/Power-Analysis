@@ -1,0 +1,12 @@
+# Documented constants used by the scripts (hardcoded there; this file is not loaded).
+seeds: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+N: [5000, 10000, 12000, 15000, 20000, 25000, 30000, 35000, 40000]
+epochs: 200
+batch_size: 20000
+lr: 0.001
+adam_eps: 1.0e-7
+loss: cross_entropy
+window_len: 700
+train_bytes: [2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15]
+protocol: alg3_concat_masked14
+n_params: 75288

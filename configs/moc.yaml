@@ -1,0 +1,13 @@
+# Documented constants used by the scripts (hardcoded there; this file is not loaded).
+# Shared-layer width=20 is an unconfirmed default (not found in a primary source).
+shared_width: 20
+shared_width_confirmed: false
+epochs: 50
+batch_size: 1000
+lr: 0.001
+adam_betas: [0.9, 0.999]
+adam_eps: 1.0e-8
+loss: sum_of_256_branch_mse
+protocol: independent_per_byte
+default_seeds: [0, 1, 2, 3, 4]
+default_N: [2000, 5000, 8000, 10000, 12000, 20000]

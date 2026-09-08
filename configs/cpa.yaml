@@ -1,0 +1,8 @@
+# Documented constants used by the scripts (hardcoded there; this file is not loaded).
+seeds: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]  # trial index 0..9
+N: [5000, 10000, 15000, 20000, 25000, 30000, 35000, 40000]
+n_trials: 10
+rng_base: 20260823
+pool: profiling  # traces 0:50000, random subsets, not first-N
+leakage: hamming_weight_sbox
+ci: student_t_df9

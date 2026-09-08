@@ -1,0 +1,18 @@
+# Documented constants used by the scripts (hardcoded there; this file is not loaded).
+# Default make_h2("E") is gated (use_gate=True). The 200-epoch att×att runner
+# passes use_gate=False, self_multiply=True without changing that default.
+config: E
+n_tokens: 23
+seeds: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+N: [5000, 10000, 15000, 20000, 25000, 30000, 35000, 40000]
+epochs: 200
+batch_size: 20000
+lr: 0.001
+adam_eps: 1.0e-7
+loss: cross_entropy
+use_gate_default: true
+attxatt_200ep:
+  use_gate: false
+  self_multiply: true
+  n_params: 99720
+gated_E_n_params: 99992
